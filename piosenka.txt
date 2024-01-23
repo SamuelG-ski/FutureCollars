@@ -11,14 +11,7 @@ refren-1.txt
 zwrotka-2.txt
 
 [Hook]
-You better lose yourself in the music, the moment
-You own it, you better never let it go
-You only get one shot, do not miss your chance to blow
-This opportunity comes once in a lifetime, yo
-You better lose yourself in the music, the moment
-You own it, you better never let it go
-You only get one shot, do not miss your chance to blow
-This opportunity comes once in a lifetime, yo
+refren-2.txt
 
 [Verse 3]
 No more games, I'ma change what you call rage

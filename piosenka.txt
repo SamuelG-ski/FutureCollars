@@ -5,14 +5,7 @@ intro-1.txt
 zwrotka-1.txt
 
 [Hook]
-You better lose yourself in the music, the moment
-You own it, you better never let it go
-You only get one shot, do not miss your chance to blow
-This opportunity comes once in a lifetime, yo
-You better lose yourself in the music, the moment
-You own it, you better never let it go
-You only get one shot, do not miss your chance to blow
-This opportunity comes once in a lifetime, yo
+refren-1.txt
 
 [Verse 2]
 The soul's escaping through this hole that is gaping

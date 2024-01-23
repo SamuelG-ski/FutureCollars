@@ -20,4 +20,4 @@ zwrotka-3.txt
 refren-3.txt
 
 [Outro]
-You can do anything you set your mind to, man
+outro-1.txt

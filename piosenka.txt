@@ -11,13 +11,13 @@ refren-1.txt
 zwrotka-2.txt
 
 [Hook]
-refren-2.txt
+refren-1.txt
 
 [Verse 3]
 zwrotka-3.txt
 
 [Hook]
-refren-3.txt
+refren-1.txt
 
 [Outro]
 outro-1.txt

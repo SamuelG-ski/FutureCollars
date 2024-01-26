@@ -1,0 +1,374 @@
+C:\zadanie1>git log -p piosenka.txt
+commit b6c14e93040ef9ab5eb9145e12ff00024fd4c4de (HEAD -> master)
+Author: Samuel <jay.jotzet@wp.pl>
+Date:   Tue Jan 23 10:48:22 2024 +0100
+
+    zmieniam tekst pod wszystkimi refrenami na refren-1.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 1415af2..615242e 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -11,13 +11,13 @@ refren-1.txt
+ zwrotka-2.txt
+
+ [Hook]
+-refren-2.txt
++refren-1.txt
+
+ [Verse 3]
+ zwrotka-3.txt
+
+ [Hook]
+-refren-3.txt
++refren-1.txt
+
+ [Outro]
+ outro-1.txt
+\ No newline at end of file
+
+commit 8f3bb1099c2582080ade9e585929870903980525
+
+C:\zadanie1>git log -p intro-1.txt
+commit f8bbfe7898ecda25e91850534b93c53c4757e44b
+Author: Samuel <jay.jotzet@wp.pl>
+Date:   Tue Jan 23 10:05:44 2024 +0100
+
+    dodaję plik intro-1.txt
+
+diff --git a/intro-1.txt b/intro-1.txt
+new file mode 100644
+index 0000000..94c5ece
+--- /dev/null
++++ b/intro-1.txt
+@@ -0,0 +1,5 @@
++[Intro]
++Look, if you had, one shot or one opportunity
++To seize everything you ever wanted in one moment
++Would you capture it, or just let it slip?
++Yo
+\ No newline at end of file
+
+C:\zadanie1>git log -p zwrotka-1.txt
+commit e26a0ad9c787c46fe0928e72f2e0ee47d4a4493a
+Author: Samuel <jay.jotzet@wp.pl>
+Date:   Tue Jan 23 10:10:28 2024 +0100
+
+    dodaję plik zwrotka-1.txt
+
+diff --git a/zwrotka-1.txt b/zwrotka-1.txt
+new file mode 100644
+index 0000000..12869c9
+--- /dev/null
++++ b/zwrotka-1.txt
+@@ -0,0 +1,17 @@
++[Verse 1]
++His palms are sweaty, knees weak, arms are heavy
++There's vomit on his sweater already: mom's spaghetti
++He's nervous, but on the surface he looks calm and ready
++To drop bombs but he keeps on forgetting
++What he wrote down, the whole crowd goes so loud
++He opens his mouth but the words won't come out
++He's choking, how? Everybody's joking now
++The clock's run out, time's up, over - blaow
++Snap back to reality, oh, there goes gravity
++Oh, there goes Rabbit, he choked, he's so mad but he won't
++Give up that easy nope, he won't have it, he knows
++His whole back's to these ropes, it don't matter, he's dope
++He knows that, but he's broke, he's so stagnant, he knows
++When he goes back to this mobile home, that's when it's
++Back to the lab again, yo, this whole rhapsody
++He better go capture this moment and hope it don't pass him
+\ No newline at end of file
+
+C:\zadanie1>git log -p zwrotka-2.txt
+commit 7084c9f8019b508cc5c5288e85e689ccb0875a16
+Author: Samuel <jay.jotzet@wp.pl>
+Date:   Tue Jan 23 10:20:35 2024 +0100
+
+    dodaję plik zwrotka-2.txt
+
+diff --git a/zwrotka-2.txt b/zwrotka-2.txt
+new file mode 100644
+index 0000000..c0a33ad
+--- /dev/null
++++ b/zwrotka-2.txt
+@@ -0,0 +1,17 @@
++[Verse 2]
++The soul's escaping through this hole that is gaping
++This world is mine for the taking, make me king
++As we move toward a New World Order
++A normal life is boring; but superstardom's
++Close to post-mortem, it only grows harder
++Homie grows hotter, he blows it's all over
++These hoes is all on him, coast to coast shows
++He's known as the Globetrotter, lonely roads
++God only knows, he's grown farther from home, he's no father
++He goes home and barely knows his own daughter
++But hold your nose cause here goes the cold water
++These hoes don't want him no mo', he's cold product
++They moved on to the next schmoe who flows
++He nose-dove and sold nada, and so the soap opera
++Is told, it unfolds, I suppose it's old, partner
++But the beat goes on: da-da-dum da-dum dah-dah
+\ No newline at end of file
+
+C:\zadanie1>git log -p zwrotka-3.txt
+commit e9b9d4682eeedfb827bf2b954277d4e79aac0d92
+Author: Samuel <jay.jotzet@wp.pl>
+Date:   Tue Jan 23 10:30:11 2024 +0100
+
+    dodaję plik zwrotka-3.txt
+
+diff --git a/zwrotka-3.txt b/zwrotka-3.txt
+new file mode 100644
+index 0000000..b6d3f51
+--- /dev/null
++++ b/zwrotka-3.txt
+@@ -0,0 +1,25 @@
++[Verse 3]
++No more games, I'ma change what you call rage
++Tear this motherfuckin' roof off like two dogs caged
++I was playing in the beginning, the mood all changed
++I've been chewed up and spit out and booed off stage
++But I kept rhyming and stepped right in the next cypher
++Best believe somebody's paying the Pied Piper
++All the pain inside amplified by the
++Fact that I can't get by with my nine-to-
++Five and I can't provide the right type of
++Life for my family, cause man, these God damn
++Food stamps don't buy diapers, and there's no movie
++There's no Mekhi Phifer, this is my life
++And these times are so hard, and it's getting even harder
++Tryna feed and water my seed plus, teeter-totter
++Caught up between being a father and a prima donna
++Baby momma drama, screaming on her too much for me to wanna
++Stay in one spot, another day of monotony
++Has gotten me to the point, I'm like a snail, I've got
++To formulate a plot, or end up in jail or shot
++Success is my only motherfuckin' option - failure's not
++Mom, I love you but this trailer's got to go
++I cannot grow old in Salem's Lot
++So here I go it's my shot, feet: fail me not
++This may be the only opportunity that I got
+
+C:\zadanie1>git log -p outro-1.txt
+commit d19adbc9004a154f40dfa2a9931f92c9d7b36894
+Author: Samuel <jay.jotzet@wp.pl>
+Date:   Tue Jan 23 10:36:07 2024 +0100
+
+    dodaję plik outro-1.txt
+
+diff --git a/outro-1.txt b/outro-1.txt
+new file mode 100644
+index 0000000..78e7d2b
+--- /dev/null
++++ b/outro-1.txt
+@@ -0,0 +1,2 @@
++[Outro]
++You can do anything you set your mind to, man
+\ No newline at end of file
+
+C:\zadanie1>git log -p refren-1.txt
+commit 69059e6bc495f65f7e0945b1817fb344c8b3b3f3
+Author: Samuel <jay.jotzet@wp.pl>
+Date:   Tue Jan 23 10:42:14 2024 +0100
+
+    Revert "usuwam jedną linię z refrenu z pliku refren-1.txt"
+
+    This reverts commit 5315a197d8f09eb2ac4d40eebdcd4c9cb6813c16.
+
+diff --git a/refren-1.txt b/refren-1.txt
+index 59a78b5..53510df 100644
+--- a/refren-1.txt
++++ b/refren-1.txt
+@@ -2,6 +2,7 @@
+ You better lose yourself in the music, the moment
+ You own it, you better never let it go
+ You only get one shot, do not miss your chance to blow
++This opportunity comes once in a lifetime, yo
+ You better lose yourself in the music, the moment
+ You own it, you better never let it go
+ You only get one shot, do not miss your chance to blow
+
+commit 5315a197d8f09eb2ac4d40eebdcd4c9cb6813c16
+Author: Samuel <jay.jotzet@wp.pl>
+Date:   Tue Jan 23 10:41:20 2024 +0100
+
+    usuwam jedną linię z refrenu z pliku refren-1.txt
+
+diff --git a/refren-1.txt b/refren-1.txt
+index 53510df..59a78b5 100644
+--- a/refren-1.txt
++++ b/refren-1.txt
+@@ -2,7 +2,6 @@
+ You better lose yourself in the music, the moment
+ You own it, you better never let it go
+ You only get one shot, do not miss your chance to blow
+-This opportunity comes once in a lifetime, yo
+ You better lose yourself in the music, the moment
+ You own it, you better never let it go
+ You only get one shot, do not miss your chance to blow
+
+commit b6accf503365277aa0ac121a8172c3a969903794
+Author: Samuel <jay.jotzet@wp.pl>
+Date:   Tue Jan 23 10:14:00 2024 +0100
+
+    dodaję plik refren-1.txt
+
+diff --git a/refren-1.txt b/refren-1.txt
+new file mode 100644
+index 0000000..53510df
+--- /dev/null
++++ b/refren-1.txt
+@@ -0,0 +1,9 @@
++[Hook]
++You better lose yourself in the music, the moment
++You own it, you better never let it go
++You only get one shot, do not miss your chance to blow
++This opportunity comes once in a lifetime, yo
++You better lose yourself in the music, the moment
++You own it, you better never let it go
++You only get one shot, do not miss your chance to blow
++This opportunity comes once in a lifetime, yo
+\ No newline at end of file
+
+C:\zadanie1>git log -p refren-2.txt
+fatal: ambiguous argument 'refren-2.txt': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+C:\zadanie1>git log -p refren-3.txt
+fatal: ambiguous argument 'refren-3.txt': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+C:\zadanie1>git log
+commit b6c14e93040ef9ab5eb9145e12ff00024fd4c4de (HEAD -> master)
+Author: Samuel <jay.jotzet@wp.pl>
+Date:   Tue Jan 23 10:48:22 2024 +0100
+
+    zmieniam tekst pod wszystkimi refrenami na refren-1.txt
+
+commit 17c119870a312509726a22f803d57041828af1c2
+Author: Samuel <jay.jotzet@wp.pl>
+Date:   Tue Jan 23 10:46:58 2024 +0100
+
+    usuwam pliki refren-2.txt i refren-3.txt
+
+commit 69059e6bc495f65f7e0945b1817fb344c8b3b3f3
+Author: Samuel <jay.jotzet@wp.pl>
+Date:   Tue Jan 23 10:42:14 2024 +0100
+
+    Revert "usuwam jedną linię z refrenu z pliku refren-1.txt"
+
+    This reverts commit 5315a197d8f09eb2ac4d40eebdcd4c9cb6813c16.
+
+commit 5315a197d8f09eb2ac4d40eebdcd4c9cb6813c16
+Author: Samuel <jay.jotzet@wp.pl>
+Date:   Tue Jan 23 10:41:20 2024 +0100
+
+    usuwam jedną linię z refrenu z pliku refren-1.txt
+
+commit 8f3bb1099c2582080ade9e585929870903980525
+Author: Samuel <jay.jotzet@wp.pl>
+Date:   Tue Jan 23 10:37:17 2024 +0100
+
+    zmieniam tekst na outro-1.txt
+
+commit d19adbc9004a154f40dfa2a9931f92c9d7b36894
+Author: Samuel <jay.jotzet@wp.pl>
+Date:   Tue Jan 23 10:36:07 2024 +0100
+
+    dodaję plik outro-1.txt
+
+commit 0b774f8a6be1efd33430830f66977a014fe9cd5b
+Author: Samuel <jay.jotzet@wp.pl>
+Date:   Tue Jan 23 10:34:55 2024 +0100
+
+    zmieniam tekst na refren-3.txt
+
+commit 7b726ed0ab61f260bfe1e30677a42869005e4c24
+Author: Samuel <jay.jotzet@wp.pl>
+Date:   Tue Jan 23 10:33:48 2024 +0100
+
+    dodaję plik refren-3.txt
+
+commit 8bed7e77f008c7d9ba59d3f97138896467adc550
+Author: Samuel <jay.jotzet@wp.pl>
+Date:   Tue Jan 23 10:32:11 2024 +0100
+
+    zmieniam tekst na zwrotka-3.txt
+
+commit e9b9d4682eeedfb827bf2b954277d4e79aac0d92
+Author: Samuel <jay.jotzet@wp.pl>
+Date:   Tue Jan 23 10:30:11 2024 +0100
+
+    dodaję plik zwrotka-3.txt
+
+commit 1afd37f23dffbdf78a4763b4790bc360fb7e15ea
+Author: Samuel <jay.jotzet@wp.pl>
+Date:   Tue Jan 23 10:28:37 2024 +0100
+
+    zmieniam tekst na refren-2.txt
+
+commit 92f5c3d70de79c99ffd05671e22578968f6fd741
+Author: Samuel <jay.jotzet@wp.pl>
+Date:   Tue Jan 23 10:23:52 2024 +0100
+
+    dodaję plik refren-2.txt
+
+commit 4b899f0eb70f6f3d794dd840d198ed005a7f16e4
+Author: Samuel <jay.jotzet@wp.pl>
+Date:   Tue Jan 23 10:22:00 2024 +0100
+
+    zmieniam tekst na zwrotka-2.txt
+
+commit 7084c9f8019b508cc5c5288e85e689ccb0875a16
+Author: Samuel <jay.jotzet@wp.pl>
+Date:   Tue Jan 23 10:20:35 2024 +0100
+
+    dodaję plik zwrotka-2.txt
+
+commit a50c4be8c28e002d8283b44ef71ac585c0d73b03
+Author: Samuel <jay.jotzet@wp.pl>
+Date:   Tue Jan 23 10:19:05 2024 +0100
+
+    zmieniam tekst na refren-1.txt
+
+commit b6accf503365277aa0ac121a8172c3a969903794
+Author: Samuel <jay.jotzet@wp.pl>
+Date:   Tue Jan 23 10:14:00 2024 +0100
+
+    dodaję plik refren-1.txt
+
+commit a4976c28fb313b62581158557440aeead0a91178
+Author: Samuel <jay.jotzet@wp.pl>
+Date:   Tue Jan 23 10:12:13 2024 +0100
+
+    zmieniam tekst na zwrotka-1.txt
+
+commit e26a0ad9c787c46fe0928e72f2e0ee47d4a4493a
+Author: Samuel <jay.jotzet@wp.pl>
+Date:   Tue Jan 23 10:10:28 2024 +0100
+
+    dodaję plik zwrotka-1.txt
+
+commit cfc8bfaefef395c2950abba4971bec556deb86db
+Author: Samuel <jay.jotzet@wp.pl>
+Date:   Tue Jan 23 10:08:12 2024 +0100
+
+    zmieniam tekst na intro-1.txt
+
+commit f8bbfe7898ecda25e91850534b93c53c4757e44b
+Author: Samuel <jay.jotzet@wp.pl>
+Date:   Tue Jan 23 10:05:44 2024 +0100
+
+    dodaję plik intro-1.txt
+
+commit 5e671a6b610f4713eb166ce9578c428297cd3f1d
+Author: Samuel <jay.jotzet@wp.pl>
+Date:   Tue Jan 23 10:02:38 2024 +0100
+
+    dodaję plik piosenka.txt
+(END)
